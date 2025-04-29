@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Simple To-Do App</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://fav.farm/%F0%9F%93%99%EF%B8%8F" type="image/x-icon">
 </head>
 
 <body>
 
     <div class="app">
+        <button id="dark-mode-toggle">🌙 Toggle Dark Mode</button>
         <h1>To-Do List</h1>
+        <p id="task-counter">You have 0 tasks left</p>
         <div class="input-group">
             <input type="text" id="task-input" placeholder="Enter a new task...">
             <button id="add-task-btn">Add</button>
         </div>
         <ul id="task-list"></ul>
+        <button id="clear-all-btn">Clear All</button>
     </div>
 
     <script src="script.js"></script>
